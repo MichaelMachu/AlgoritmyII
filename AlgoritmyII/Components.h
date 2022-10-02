@@ -15,7 +15,7 @@ public:
     static void SwapValues(T&, T&);
     static void PrintElements(T*, unsigned int, char = ';');
     static void PrintMatrix(Equation);
-    static void PrintMatrix(T*, unsigned int);
+    static void PrintMatrix(T**, unsigned int);
     static void PrintMatrixWithElementsB(Equation);
     static void PrintMatrixResult(Equation, float*);
 
@@ -101,7 +101,7 @@ inline void Components<T>::PrintMatrix(Equation equation)
 }
 
 template<class T>
-inline void Components<T>::PrintMatrix(T* matrix, unsigned int size)
+inline void Components<T>::PrintMatrix(T** matrix, unsigned int size)
 {
     //std::cout << "A matrix:" << std::endl;
     for (unsigned int i = 0; i < size; i++)
