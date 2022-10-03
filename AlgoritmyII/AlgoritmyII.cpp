@@ -50,11 +50,14 @@ int main()
         float **Task2::DecompositionLU(Equation equation);
         float *Task2::DecompositionSolving(Equation equation, float **matrixLU);
 
+        Reseni musi obsahovat alespon strucny popis jednotlivych ukonu uvnitr algoritmu, aby bylo jasne, ze tomu rozumite.
+        U kazdeho cyklu uvest orientacni slozitost (pokud se jedna o vnoreny cyklus, tak uvest celkovou slozitost slozeneho cyklu), 
+        muzete se taky pokusit napsat i celkovou slozitost algoritmu.
     */
 
     /* Task 2
     *   Vytvorte dve metody, ktere budou resit soustavu rovnic resenim LU rozkladem matice.
-    *   Prvni metoda bude obsahovat vypocet samotneho LU rozkladu, ktery pak nasledne bude vracet jako jednu matici.
+    *   Prvni metoda bude obsahovat vypocet samotneho LU rozkladu, ktery pak nasledne bude vracet hodnotu jako jednu LU matici.
     *   Druha metoda pak ze samotneho LU rozkladu vypocita vysledky jednotlivych x-ovych hodnot.
     */
     
